@@ -1,0 +1,223 @@
+/* ---------------------------------------------Navbar Section--------------------------------------------- */
+.navbar{
+    background-color: #F1F1F1;
+  }
+  
+  .nav-link {
+    color: #401cdc;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  .nav-link:last-child {
+    margin-right: 0;
+  }
+  
+  /* ---------------------------------------------Price-Calculator Section--------------------------------------------- */
+  .price-calculator-container {
+    background-image: url('../src/Assets/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top -60px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: -2;
+  }
+  
+  .price-calculator {
+    background-color: #003d82ff !important;
+    color: white;
+    border-radius: 10px;
+    width: 75%;
+  }
+  
+  .price-calculator h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .calculator-container {
+    display: flex;
+    justify-content: space-between;
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+  
+  .calculator-section h3,
+  .onboarding-section h3 {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+  
+  .formHwSoftware option{
+      font-size: 15px;
+      padding: 10px;
+  }
+  
+  .slider-component label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .slider-component .float-end {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .slider-component input[type="range"] {
+    width: 100%;
+    padding: 0;
+    height: 3px;
+    background-color: #bdc9ca !important;
+    cursor: grab;
+    border: none;
+  }
+  
+  .min-max-span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #abb8c3;
+  }
+  .onboarding-section {
+    margin-top: 20px;
+    padding: 0 0 0 49%;
+  }
+  
+  .checkbox-component {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-component input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* ---------------------------------------------Summary Section--------------------------------------------- */
+  
+  .summary-section{
+      background-color: #003d82ff !important;
+      width: 75%;
+      border-radius: 10px;
+      color: white;
+      font-size: 14px;
+      max-height: 3000px;
+  }
+  
+  .summary-section h2{
+      font-size: 18px;
+      font-weight: 600;
+  }
+  
+  .total-amount{
+      font-size: 18px;
+      font-weight: 600;
+  }
+  
+  /* ---------------------------------------------Start Now Section--------------------------------------------- */
+  
+  .start-now-section{
+    background-color: transparent;
+    background-image: linear-gradient(179deg, #ad77ff 0%, #4d0aa4 100%);
+    border-radius: 10px;
+    /* transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
+    padding: 4em ;
+    width: 90%;
+    margin: 10rem 0 10rem 0;
+    color: #fff;
+  }
+  
+  .start-now-btn {
+    border-radius: 100em;
+    padding: 15px 39px 15px 39px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #ffe433 0%, #ffc131 100%);
+    color: black;
+    box-shadow: 0px 11px 35px 0px rgba(255, 225, 50, 0.65);
+    border: none;
+  }
+  
+  .start-now-section h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.70);
+    margin: 0 0 19px 0;
+  }
+  
+  .start-now-section h1{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 66px;
+    color: #ffffff;
+  }
+  
+  .start-now-section Button{
+    margin: 4rem 0 2rem 0;
+  }
+  
+  /* @keyframes circle-in-center {
+    from {
+      clip-path: circle(0%);
+    }
+    to {
+      clip-path: circle(125%);
+    }
+  }
+  
+  [transition-style="in:circle:center"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-center both;
+  } */
+  
+  /* ---------------------------------------------Footer Section--------------------------------------------- */
+  
+  .footer {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .footer-contact, .footer-signup, .footer-logo p {
+    color: #505050;
+  }
+  
+  .footer-links h5,
+  .footer-contact h5,
+  .footer-signup h5 {
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #202020;
+    position: relative;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    color: #505050;
+    text-decoration: none;
+  }
+  
+  .footer-signup .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .submit-button{
+    border-radius: 10px;
+  }
