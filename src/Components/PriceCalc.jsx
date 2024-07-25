@@ -14,7 +14,7 @@ const PriceCalculator = () => {
             <Form.Group controlId="formHwSoftware">
               <Form.Control as="select">
                 <option>Select value</option>
-                <option>
+                {/* <option>
                     <span>2TB Capacity w/ Support </span>
                     <span>Price: $ 91.00</span>
                 </option>
@@ -57,7 +57,7 @@ const PriceCalculator = () => {
                 <option>
                     <span>40TB Capacity w/ Support </span>
                     <span>Price: $ 91.00</span>
-                </option>
+                </option> */}
 
               </Form.Control>
             </Form.Group>
